@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/mrsimonemms/new",
+  "commit": "56f3c0671cf7a9738d5b125bbbe67e90ab3872ad",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "priorslee-honey",
+      "description": "Priorslee Honey",
+      "author": "Simon Emms <simon@simonemms.com>",
+      "type": "svelte",
+      "_template": "https://github.com/mrsimonemms/new"
+    }
+  },
+  "directory": "js",
+  "skip": [
+    ".git"
+  ]
+}
