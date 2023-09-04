@@ -36,5 +36,10 @@ repos:
     rev: v3.0.2
     hooks:
       - id: prettier
+        args:
+          - --plugin
+          - prettier-plugin-svelte
+          - --plugin
+          - prettier-plugin-organize-imports
         stages:
           - pre-commit
